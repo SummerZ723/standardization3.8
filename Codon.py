@@ -27,27 +27,6 @@ Thr = Codon('Thr', ['ACG', 'ACA', 'ACC', 'ACT'])
 Val = Codon('Val', ['GTG', 'GTA', 'GTC', 'GTT'])
 Trp = Codon('Trp', ['TGG'])
 Tyr = Codon('Tyr', ['TAC', 'TAT'])
-codons = [Ala, Cys, Asp, Glt, Phe, Gly, His, Ile, Lys, Leu1, Leu2, Met, Asn, Pro, Gln, Arg1, Arg2, Ser1, Ser2, Thr, Val, Trp, Tyr]
 
-# codons = np.array([['Ala', 'GCG', 'GCA', 'GCC', 'GCT'],
-#                    ['Cys', 'TGC', 'TGT'],
-#                    ['Asp', 'GAC', 'GAT'],
-#                    ['GlT', 'GAG', 'GAA'],
-#                    ['Phe', 'TTC', 'TTT'],
-#                    ['Gly', 'GGG', 'GGA', 'GGC', 'GGT'],
-#                    ['His', 'CAC', 'CAT'],
-#                    ['Ile', 'ATA', 'ATC', 'ATT'],
-#                    ['Lys', 'AAG', 'AAA'],
-#                    ['LeT', 'TTG', 'TTA', 'CTG', 'CTA', 'CTC', 'CTT'],
-#                    ['Met', 'ATG'],
-#                    ['Asn', 'AAC', 'AAT'],
-#                    ['Pro', 'CCG', 'CCA', 'CCC', 'CCT'],
-#                    ['Gln', 'CAG', 'CAA'],
-#                    ['Arg', 'CCG', 'CGA', 'CGC', 'CGT', 'AGG', 'AGA'],
-#                    ['Ser', 'TCG', 'TGA', 'TCC', 'TCT', 'AGC', 'AGT'],
-#                    ['Thr', 'ACG', 'ACA', 'ACC', 'ACT'],
-#                    ['Val', 'GTG', 'GTA', 'GTC', 'GTT'],
-#                    ['Trp', 'TGG'],
-#                    ['Tyr', 'TAC', 'TAT'],
-#                    ['Start', 'ATG', 'ATA', 'ATC', 'ATT'],
-#                    ['Stop', 'TAA', 'TAG', 'AGA', 'AGG']])
+amino_acid_list = [Ala, Cys, Asp, Glt, Phe, Gly, His, Ile, Lys, Leu1, Leu2, Met,
+                   Asn, Pro, Gln, Arg1, Arg2, Ser1, Ser2, Thr, Val, Trp, Tyr]
